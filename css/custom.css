@@ -1,0 +1,10 @@
+.techsters-top{
+	margin-top: 50px;
+}
+
+div.techsters-logo img{
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 0%;
+	border-style: double;
+}
