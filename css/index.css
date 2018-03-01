@@ -26,6 +26,19 @@
     height: 500px;
   }
 
+/*breadcrumb */
+.breadcrumb {
+  background: rgba(245, 245, 245, 0); 
+  border: 0px solid rgba(245, 245, 245, 1); 
+  border-radius: 25px; 
+  display: block;
+}
+
+.btn-bread{
+    margin-top:50px;
+    font-size: 12px
+}
+
 /*body-content*/
 .body-content{
   border: 3px solid black;
