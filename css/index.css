@@ -41,8 +41,41 @@
 
 /*body-content*/
 .body-content{
-  border: 3px solid black;
-  height: 800px;
+  margin-top: -20px;
+  border: 0px solid black;
+  /* height: 800px; */
+}
+
+
+.breadcrumb > li + li:before {
+  content:"\003E";
+}
+
+.donation{
+  border: 4px solid #008FD5;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 5px;
+  margin-top: 20px;
+  text-align:center;
+ /*  position: relative;
+  left: 10px; */
+   }
+
+#donation-heading{
+  font-weight: 900;
+  letter-spacing:2px;
+  line-height: 30px;
+}
+
+.btn-lg_body{
+  letter-spacing:2px;
+}
+  
+.about-diabetes-p{
+  text-align: justify
 }
   
 /*FOOTER */
@@ -98,7 +131,7 @@ i {
     color: #aece61 ;
 }
 
-.btn-lg{
+.btn-lg_footer{
   margin-top: 15px;
   margin-left:40px;
   
