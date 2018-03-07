@@ -30,7 +30,7 @@ width: 100%;
 /* Carousel base class */
 
 .carousel {
-height: 500px;
+/*height: 500px;*/
 margin-bottom: 0px;
 
 }
@@ -49,8 +49,17 @@ position: absolute;
 top: 0;
 left: 0;
 min-width: 100%;
-height: 500px;
+opacity:0.2%;
+/*    height: 500px;
+*/  }
+
+/*.slider-img{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1)
+  )
 }
+*/
 
 /*breadcrumb */
 .breadcrumb {
