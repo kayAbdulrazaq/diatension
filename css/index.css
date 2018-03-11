@@ -127,6 +127,9 @@ border-top-color: #337ab7;
 border-top: 4px solid;
 }
 
+.caption h5{
+  color: #337ab7;
+}
 /*FOOTER */
 i {
 font-size : 12px;
