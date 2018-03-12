@@ -51,16 +51,8 @@ top: 0;
 left: 0;
 min-width: 100%;
 opacity:0.2%;
-/*    height: 500px;
-*/  }
 
-/*.slider-img{
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 1)
-  )
 }
-*/
 
 /*breadcrumb */
 .breadcrumb {
@@ -75,17 +67,39 @@ margin-top:50px;
 font-size: 12px
 }
 
+/* the line below text-header on about-diabetes page*/
+.page-header {
+  padding-bottom: 2px;
+  margin: 40px 0 50px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Text header on about-diabetes page*/
+.page-header h1{
+  color: #337ab7;
+  margin-bottom: 20px;
+  
+}
+
 /*body-content*/
-.body-content{
+.body-content-index{
 margin-top: 40px;
 border: 0px solid black;
 /* height: 800px; */
 }
 
+.body-content-about-diabetes{
+  margin-top:70px;
+}
+
+.breadcrumb{
+  margin-top: 60px;
+}
 
 .breadcrumb > li + li:before {
 content:"\003E";
 }
+
 
 #about-diatension{
   margin-bottom: 25px;
@@ -130,6 +144,14 @@ border-top: 4px solid;
 .caption h5{
   color: #337ab7;
 }
+
+ .img-responsive{
+  display: block;
+  max-width: 100%;
+  height: 250px;
+  
+}
+
 /*FOOTER */
 i {
 font-size : 12px;
@@ -320,7 +342,3 @@ color: #aece61  ;
   background-color: #080808;
 }
 
-/* .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
-  background-color: transparent;
-} */
