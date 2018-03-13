@@ -171,6 +171,10 @@ border-top: 4px solid;
   text-decoration: underline;
 }
 
+.embed-responsive-4by3 {  /* the embedded video padding bottom*/
+  padding-bottom: 35%;
+}
+
 /*FOOTER */
 i {
 font-size : 12px;
