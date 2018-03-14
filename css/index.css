@@ -25,6 +25,14 @@ h1{ font-size:1.802rem;}
   font-size: 17px;
 }
 
+/* NAVIGATION BAR 
+-----------------------------*/
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+        display: block;
+    }
+
+
 /* CUSTOMIZING THE CAROUSEL
 -------------------------------------------------- */
 
@@ -346,10 +354,7 @@ color: #aece61  ;
 .navbar-inverse .navbar-nav > li > a { /*the color of nav bar when hovered over*/
   color: #D3D7D9;
 }
-/* .navbar-inverse .navbar-nav>.active>a{
- color: #fff;
-  background-color:#1497D7;
-}; */
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   color: #fff;
   background-color: #008FD5;
