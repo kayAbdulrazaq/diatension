@@ -175,6 +175,11 @@ border-top: 4px solid;
   
 }
 
+.img-header{
+  width: 700px;
+  height:300px;
+}
+
 hr {
  
     border: 0;
