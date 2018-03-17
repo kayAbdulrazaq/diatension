@@ -214,6 +214,16 @@ border-top: 4px solid;
   height: 400px;
 }
 
+.img-header-donation{
+  display:block;
+  max-width: 100%;
+  height: auto;
+}
+
+span.bold{
+  font-weight: bold;
+}
+
 hr {
  
     border: 0;
