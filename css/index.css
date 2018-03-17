@@ -69,6 +69,7 @@ opacity:0.2%;
 
 }
 
+
 /*breadcrumb */
 .breadcrumb {
 background: rgba(245, 245, 245, 0);
@@ -88,6 +89,13 @@ font-size: 12px
   margin: 40px 0 50px;
   border-bottom: 1px solid #eee;
 }
+
+.page-header-physical{
+  margin: 120px 0px 0px 400px;
+  color: #03060e;  font-family: 'Signika', sans-serif;
+}
+
+.physcial-para{color: #0f0e0e; font-family: 'Signika', sans-serif;}
 
 /* Text header on about-diabetes page*/
 .page-header h1{
@@ -183,6 +191,10 @@ border-top: 4px solid;
 
 .caption h5{
   color: #337ab7;
+}
+
+.row1{
+  margin-top: 30px;
 }
 
  .img-responsive{

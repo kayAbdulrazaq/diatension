@@ -43,32 +43,30 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /* CUSTOMIZING THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
 
-.carousel {
-/*height: 500px;*/
-margin-bottom: 0px;
+/*carousel slider for physical page*/
 
+.size {
+  margin: 0 auto;
+  width: 450px; 
+  /* margin-bottom: 20px; */
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-height: 500px;
-background-color: #777;
-}
-.carousel-inner > .item > img {
-position: absolute;
-top: 0;
-left: 0;
-min-width: 100%;
-opacity:0.2%;
-
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
 }
 
+.carousel-control.left {
+  left: 0;
+  right: auto;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+}
+
+.carousel-control {
+  
+  width: 25%;
+}
 /*breadcrumb */
 .breadcrumb {
 background: rgba(245, 245, 245, 0);
@@ -89,23 +87,30 @@ font-size: 12px
   border-bottom: 1px solid #eee;
 }
 
-/* Text header on about-diabetes page*/
+.page-header-physical{
+  margin: 120px 0px 0px 400px;
+  color: #03060e;  font-family: 'Signika', sans-serif;
+}
+
+/* Text header styling*/
 .page-header h1{
-  color: #337ab7;
+  color: #337ab7; 
   margin-bottom: 20px;
   
 }
 
-/*body-content*/
+/*body-content with margin top spacing 40px*/
 .body-content-index{
 margin-top: 40px;
-border: 0px solid black;
-/* height: 800px; */
 }
 
+/*body-content with margin top spacing 70px*/
 .body-content-about-diabetes{
   margin-top:70px;
 }
+
+
+/*content typography styling for all body content pages*/
 
 .body-content-types{
   text-align: justify;
@@ -118,6 +123,7 @@ border: 0px solid black;
   color: #213368;
 }
 
+/*h3 styling for all body content pages*/
 .body-content-types h3{
   color: #337ab7;
 }
@@ -183,6 +189,10 @@ border-top: 4px solid;
 
 .caption h5{
   color: #337ab7;
+}
+
+.row1{
+  margin-top: 30px;
 }
 
  .img-responsive{
