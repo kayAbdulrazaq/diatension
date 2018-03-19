@@ -103,9 +103,14 @@ border: 0px solid black;
 /* height: 800px; */
 }
 
-.body-content-about-diabetes{
+/*.body-content-about-diabetes{
   margin-top:70px;
+}*/
+
+.body-content-diet-and-nutrition{
+  margin:70px 0px 140px 0px;
 }
+
 
 .body-content-types{
   text-align: justify;
