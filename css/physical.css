@@ -104,6 +104,15 @@ font-size: 12px
 margin-top: 40px;
 }
 
+
+.body-content-about-diabetes{
+  margin-top:70px;
+}
+
+
+/*content typography styling for all body content pages*/
+
+
 /*body-content with margin top spacing 70px*/
 .body-content-about-diabetes{
   margin-top:70px;
@@ -111,6 +120,7 @@ margin-top: 40px;
 
 
 /*content typography styling for all body content pages*/
+
 
 .body-content-types{
   text-align: justify;
