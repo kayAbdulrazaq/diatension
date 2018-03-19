@@ -104,27 +104,15 @@ font-size: 12px
 margin-top: 40px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:Physical/index.css
-/*.body-content-about-diabetes{
-=======
-/*body-content with margin top spacing 70px*/
-.body-content-about-diabetes{
->>>>>>> 5c1b29dced85ac79393887e1f3ee004fa62b984b:css/physical.css
-  margin-top:70px;
-}*/
 
-.body-content-diet-and-nutrition{
-  margin:70px 0px 140px 0px;
+.body-content-about-diabetes{
+  margin-top:70px;
 }
 
 
-<<<<<<< HEAD:Physical/index.css
-=======
 /*content typography styling for all body content pages*/
 
->>>>>>> 5c1b29dced85ac79393887e1f3ee004fa62b984b:css/physical.css
-=======
+
 /*body-content with margin top spacing 70px*/
 .body-content-about-diabetes{
   margin-top:70px;
@@ -133,7 +121,7 @@ margin-top: 40px;
 
 /*content typography styling for all body content pages*/
 
->>>>>>> a0aa6cecfb94cbe18978c64b0036af7e176ae1e0
+
 .body-content-types{
   text-align: justify;
   letter-spacing: 0.5px;
