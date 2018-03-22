@@ -121,6 +121,13 @@ border: 0px solid black;
 .body-content-link-between-diabetes-and-hypertension{
   margin-top:70px;
 }
+.body-content-gestational-diabetes{
+  max-width: 100%;
+  margin-top: 70px;
+  max-height: 100%;
+  margin-left: 70px;
+}
+.page-header-gestational{margin-left: 70px;}
 
 .body-content-types{
   text-align: justify;
