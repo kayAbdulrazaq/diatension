@@ -114,6 +114,13 @@ border: 0px solid black;
 .body-content-about-diabetes{
   margin-top:70px;
 }
+.body-content-control-diabetes{
+  max-width: 100%;
+  margin-top: 70px;
+}
+.body-content-link-between-diabetes-and-hypertension{
+  margin-top:70px;
+}
 
 .body-content-types{
   text-align: justify;
