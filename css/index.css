@@ -203,6 +203,11 @@ border-top-color: #337ab7;
 border-top: 4px solid;
 }
 
+.last-thumbnail {
+  border-top-color: #337ab7;
+    border-top: 4px solid #337ab7;
+}
+
 .caption h5{
   color: #337ab7;
 }
