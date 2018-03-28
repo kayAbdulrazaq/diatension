@@ -370,6 +370,10 @@ margin-left: -60px ;
 width: max-content;
 }
 
+.form-control {
+  padding: 6px 10px;
+}
+
 .search-text {
 height:45px;
 padding-left:60px;
